@@ -24,7 +24,7 @@ const Login = () => {
       if (res.data.token) {
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("username", res.data.username || user.email);
-        window.location.href = "https://dashboard-lake-one-34.vercel.app/";
+        window.location.href = "https://dashboard-raam.onrender.com/";
       } else {
         setError("Login failed. No token received.");
       }

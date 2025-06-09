@@ -19,7 +19,7 @@ const Signup = () => {
       await axios.post("https://hackathon-svaw.onrender.com/auth/signup", user, {
         withCredentials: true,
       });
-      window.location.href = 'https://dashboard-lake-one-34.vercel.app/';
+      window.location.href = "https://dashboard-raam.onrender.com/";
     } catch (err) {
       if (err.response && err.response.data && err.response.data.message) {
         setError(err.response.data.message);
