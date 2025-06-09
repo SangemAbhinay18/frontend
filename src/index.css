@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link{
+  margin-left: 40px;
+}
+
+.footer-links{
+  display: flex;
+  justify-content:space-around;
+}
+
+.foot{
+  text-decoration: none;
+  font-size: 85%;
+  color: gray;
+}
+
+.foot:hover{
+  color: rgba(16, 86, 222, 0.8);
+}
+
+.foot-link{
+  text-decoration: none;
+   color: gray;
+}
+
+.foot-link:hover{
+  color: rgba(16, 86, 222, 0.8);
+}
+
+#supportHero{
+  background-color: rgb(56,126,209);
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
